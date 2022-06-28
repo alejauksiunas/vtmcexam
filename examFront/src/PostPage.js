@@ -19,10 +19,9 @@ const PostPage = ({ posts, handleDelete }) => {
                 }
                 {!post &&
                     <>
-                        <h2>Post Not Found</h2>
-                        <p>Well, that's disappointing.</p>
+                        <h2>Knyga nerasta</h2>
                         <p>
-                            <Link to='/'>Visit Our Homepage</Link>
+                            <Link to='/'>Grįžti į pagrindinį puslapį</Link>
                         </p>
                     </>
                 }

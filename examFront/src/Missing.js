@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom';
 const Missing = () => {
     return (
         <main className='Missing'>
-            <h2>Page Not Found</h2>
-            <p>Well, that's disappointing.</p>
+            <h2>Puslapis nerastas</h2>
             <p>
-                <Link to='/'>Visit Our Homepage</Link>
+                <Link to='/'>Grįžti į pagrindinį puslapį</Link>
             </p>
         </main>
     )
